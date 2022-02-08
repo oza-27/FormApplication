@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_activity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etfn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="Enter your first name"
+        android:importantForAutofill="no"
+        android:labelFor="@id/etfn"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:text="Enter your last name"
+        android:importantForAutofill="no"
+        android:labelFor="@id/etln"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:text="Enter your email id"
+        android:importantForAutofill="no"
+        android:labelFor="@id/etMail"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        tools:text="Enter your password"
+        android:importantForAutofill="no"
+        android:labelFor="@id/etPwd"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        tools:text="Enter your Phone Number"
+        android:importantForAutofill="no"
+        android:labelFor="@id/etPhone"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etGen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:text="Enter your Gender"
+        android:importantForAutofill="no"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Submit" />
+</LinearLayout>

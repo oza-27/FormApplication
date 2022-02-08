@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FormApplication</string>
+    <string name="email_id">Enter your Email Id</string>
+    <string name="phone_number">Enter your Phone Number</string>
+    <string name="first_name">Enter your First Name</string>
+    <string name="last_name">Enter your Last Name</string>
+</resources>
